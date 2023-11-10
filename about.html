@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O нас</title>
+  <link rel="icon" href="./assets/images/icon.png" type="image/x-icon"/>
+
+  <link rel="stylesheet" href="aboutstyles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Archivo+Black&family=Bebas+Neue&family=Edu+TAS+Beginner&family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="direction">
+      <p><a href="/index.html">Главная </a> &mdash; <span>О нас</span> </p>
+  </header>
+
+  <main>
+    <article>
+      <section class="about-sections">
+        <div>
+          <h1>О нас</h1>
+          <div class="slider-wrapper">
+            <button class="slide-arrow" id="slide-arrow-prev">&#8249;</button>
+            <div class="slide-container" id="slide-container">
+              <div class="slide">
+                <video controls muted autoplay onended="nextSlide()">
+                  <source src="./assets/video/ola-video.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="slide">
+                <video controls muted autoplay onended="nextSlide()">
+                  <source src="./assets/video/coffee.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="slide">
+                <video controls muted autoplay onended="nextSlide()">
+                  <source src="./assets/video/zavtrak.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+            <button class="slide-arrow" id="slide-arrow-next">&#8250;</button>
+          </div>
+        </div>
+    
+        
+        <div class="about-text">
+          <p>Ola cafe - это не просто место, где вы можете насладиться вкусной едой и ароматным кофе. Это истинное убежище, где мы стараемся создать уникальную атмосферу, наполненную теплом и заботой. Наши блюда готовятся с любовью и вниманием к каждой детали, чтобы удовлетворить ваши вкусовые предпочтения. Наши бариста обучены искусству приготовления кофе, чтобы каждая чашка приносила вам радость.
+            <br>
+            Мы гордимся тем, что можем делать ваш день особенным и помогать вам наслаждаться моментом. Ola cafe - это ваше место, где душа встречает вкус, а наша забота о вас делает ваш визит незабываемым. Мы ждем вас каждый день, чтобы делиться этим уникальным опытом с вами.</p>
+        </div>
+      </section>
+
+      <section class="team-sections">
+        <div class="team-text">
+          <p>Команда Ola cafe - это семья, которая с горячим энтузиазмом и преданностью работает над созданием уникального опыта для наших гостей. Мы объединены общей страстью к гастрономии и желанием предложить лучшее. Наши повара творчески подходят к приготовлению блюд, бариста уделяют внимание каждой чашке кофе, и обслуживающий персонал всегда готов предоставить вам великолепное обслуживание.</p>
+        </div>
+        <div class="photo-container">
+          <img class="photo1" src="./assets/images/barmen.jpg" alt="barmen">
+          <img class="photo2" src="./assets/images/team.jpg" alt="team">
+        </div>
+      </section>
+
+      <section class="review-section">
+        <h1>Отзывы</h1>
+        <div class="review-container">
+          <div class="review">
+            <div class="customer-info">
+                <div class="customer-name">​Татьяна Бадешова</div>
+                <div class="rating">
+                    ★★★★★
+                </div>
+            </div>
+            <div class="review-text">
+                <p>Однозначно рекомендую это кафе. Уютная современная обстановке, вкусная еда, классные завтраки и кофе, вежливые ребята работают. И здесь чистые уборные. Доступное местоположение.</p>
+            </div>
+        </div>
+         
+          <div class="review">
+              <div class="customer-info">
+                  <div class="customer-name">Nazerke Koiman</div>
+                  <div class="rating">
+                      ★★★★★
+                  </div>
+              </div>
+              <div class="review-text">
+                  <p>Была тут 31 октября, попросила парня официанта лист бумаги, нужно было сделать записи, потом он заметил, что я изписала весь лист и спросил не нужна ли мне ещё бумага, было очень приятно от такой внимательности, передайте ему спасибо)</p>
+              </div>
+          </div>
+
+          <div class="review">
+            <div class="customer-info">
+                <div class="customer-name">​JJ Kella</div>
+                <div class="rating">
+                    ★★★★★
+                </div>
+            </div>
+            <div class="review-text">
+              <p>Крайне приятная атмосфера и вежливый персонал. Подача тоже классная :)</p>
+            </div>
+        </div>
+
+        <div class="review">
+          <div class="customer-info">
+              <div class="customer-name">L.S</div>
+              <div class="rating">
+                  ★★★★★
+              </div>
+          </div>
+          <div class="review-text">
+              <p>Вкусная кухня, приятная обстановка и очень-очень вежливый персонал. С большим удовольствием рекомендую ☺️</p>
+          </div>
+      </div>
+      <br>
+      </div>
+      <a href="https://2gis.kz/almaty/firm/70000001079858156/tab/reviews?m=76.953017%2C43.254645%2F13.82" target="_blank">Посмотреть другие отзывы в 2GIS</a>
+
+      </section>
+    </article>
+  </main>
+  
+
+
+  <script>
+    const slideContainer = document.getElementById("slide-container");
+    const slides = document.querySelectorAll(".slide");
+    const prevButton = document.getElementById("slide-arrow-prev");
+    const nextButton = document.getElementById("slide-arrow-next");
+    let currentIndex = 0;
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        if (i === index) {
+          slide.style.display = "block";
+        } else {
+          slide.style.display = "none";
+        }
+      });
+    }
+
+    function nextSlide() {
+      if (currentIndex < slides.length - 1) {
+        currentIndex++;
+      } else {
+        currentIndex = 0; 
+      }
+      showSlide(currentIndex);
+    }
+
+    nextButton.addEventListener("click", nextSlide);
+
+    prevButton.addEventListener("click", () => {
+      if (currentIndex > 0) {
+        currentIndex--;
+      } else {
+        currentIndex = slides.length - 1;
+      }
+      showSlide(currentIndex);
+    });
+
+    showSlide(currentIndex);
+  </script>
+</body>
+</html>
