@@ -1660,9 +1660,37 @@ textarea.input-field {
 	}
 
 }
+
 .footer-center .fab:hover {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
 }
 .footer-center .fa:hover {
   background:  #E4C590;
+}
+input[type="email"]{
+  background-color: white;
+  height: 25px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  padding: 10px;
+}
+label{
+  font-size: 13px;
+}
+textarea{
+  background-color: white;
+  border-radius: 5px;
+  height: 80px;
+  font-size: 13px;
+  padding: 10px;
+}
+.submit-btn{
+  margin-top: 10px;
+  padding-top:6px;
+  padding-bottom: 6px;
+  width: 225px;
+  background-color: #E4C590;
+  border-radius: 5px;
+  color: white;
 }
